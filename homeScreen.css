@@ -1,0 +1,64 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background-image: url("./assets/Eeveelutions.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* header > img {
+  height: 100px;
+  position: absolute;
+  left: 572px;
+  width: 500px;
+  height: auto;
+} */
+
+.playButton {
+  display: inline-block;
+  background-image: url("./assets/pokeButton.png");
+  background-size: 250px auto;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 245px;
+}
+
+.playButton > p {
+  display: inline-block;
+  position: relative;
+  top: 17px;
+  left: 88px;
+  font-family: "Modak", cursive;
+  font-size: 58px;
+  color: rgb(53, 102, 171);
+  text-shadow: 5px 5px 5px turquoise;
+  width: 50px;
+}
+
+/* unvisited link */
+p:link {
+  color: steelblue;
+  font-family: "Modak", cursive;
+}
+
+/* visited link */
+p:visited {
+  color: steelblue;
+  font-family: "Modak", cursive;
+}
+
+/* mouse over link */
+p:hover {
+  color: steelblue;
+  font-family: "Modak", cursive;
+}
+
+/* selected link */
+p:active {
+  color: steelblue;
+  font-family: "Modak", cursive;
+}
